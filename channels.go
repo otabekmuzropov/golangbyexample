@@ -33,9 +33,6 @@ func main() {
 }
 
 func send(ch chan int) {
-	// for i := 0; i < 7; i++ {
-	// 	ch <- i
-	// }
 	ch <- 1
 }
 
